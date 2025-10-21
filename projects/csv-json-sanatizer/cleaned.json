@@ -1,0 +1,1 @@
+{"data":[{"age":"30","email":"john@example.com","name":"John Doe"},{"age":"25","email":"","name":"Jane Smith"},{"age":"35","email":"malicious@evil.com","name":" =1+1"},{"age":"35","email":"demo@evil.com","name":" =12+2"}],"result":{"processed":5,"errors":1,"duplicates_removed":1,"timestamp":"2025-10-18T13:21:06.4202424+05:30"}}

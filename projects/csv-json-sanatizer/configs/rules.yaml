@@ -1,0 +1,11 @@
+- field: email
+  required: true
+  validator: email
+- field: age
+  required: false
+  default: "0"
+- field: description
+  required: false
+- field: name
+  required: false
+  action: escape  # Triggers prefixing for injection prevention  

@@ -73,6 +73,9 @@ func main() {
 		} else {
 			fmt.Println("❌ Cache MISS for:", data)
 		}
+	case "clear-cache":
+		cache.ClearCache()
+		log.Println("🧹 Cache manually cleared.")
 
 	default:
 		fmt.Println("❌ Unknown command")

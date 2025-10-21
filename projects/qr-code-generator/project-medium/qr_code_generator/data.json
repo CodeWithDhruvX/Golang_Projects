@@ -1,0 +1,5 @@
+[
+  {"data": "https://example.com", "type": "standard"},
+  {"data": "Hello World QR", "type": "standard"},
+  {"data": "Contact: +1234567890"}
+]
