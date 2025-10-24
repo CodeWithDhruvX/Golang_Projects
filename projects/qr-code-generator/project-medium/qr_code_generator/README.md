@@ -11,6 +11,8 @@ Complete Go implementation of a QR code generator demonstrating:
 https://chatgpt.com/c/68c916d1-a1fc-8323-8b24-3da67e29af4b
 
 
+go run cmd/main.go generate "Hello from Standard QR"
+
 go run cmd/main.go batch data.json json   
 
 go run cmd/main.go batch data.csv csv   
